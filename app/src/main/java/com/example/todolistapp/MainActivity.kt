@@ -15,6 +15,8 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             Text("Hello World")
+            Text("Aswanth has edited this")
+
             TodoTheme {
                 val navController = rememberNavController()
                 TodoNavGraph(navController)
